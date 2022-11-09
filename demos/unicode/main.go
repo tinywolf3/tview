@@ -4,7 +4,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/rivo/tview"
+	"github.com/tinywolf3/tview"
 )
 
 func main() {

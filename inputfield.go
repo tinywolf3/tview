@@ -7,8 +7,8 @@ import (
 	"sync"
 	"unicode/utf8"
 
-	"github.com/gdamore/tcell/v2"
 	"github.com/rivo/uniseg"
+	"github.com/tinywolf3/tcell/v2"
 )
 
 // InputField is a one-line box (three lines if there is a title) where the
@@ -30,7 +30,7 @@ import (
 //   - Ctrl-W: Delete the last word before the cursor.
 //   - Ctrl-U: Delete the entire line.
 //
-// See https://github.com/rivo/tview/wiki/InputField for an example.
+// See https://github.com/tinywolf3/tview/wiki/InputField for an example.
 type InputField struct {
 	*Box
 

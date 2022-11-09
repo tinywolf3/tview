@@ -8,9 +8,9 @@ import (
 	"sync"
 	"unicode/utf8"
 
-	"github.com/gdamore/tcell/v2"
 	colorful "github.com/lucasb-eyer/go-colorful"
 	"github.com/rivo/uniseg"
+	"github.com/tinywolf3/tcell/v2"
 )
 
 var (
@@ -137,7 +137,7 @@ func (w TextViewWriter) HasFocus() bool {
 // performance hit the longer your text gets. Consider using SetMaxLines() to
 // limit the number of lines in the text view.
 //
-// See https://github.com/rivo/tview/wiki/TextView for an example.
+// See https://github.com/tinywolf3/tview/wiki/TextView for an example.
 type TextView struct {
 	sync.Mutex
 	*Box

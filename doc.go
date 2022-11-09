@@ -37,7 +37,7 @@ world!":
 	package main
 
 	import (
-		"github.com/rivo/tview"
+		"github.com/tinywolf3/tview"
 	)
 
 	func main() {
@@ -174,7 +174,7 @@ therefore available for all widgets, too.
 
 All widgets also implement the [Primitive] interface.
 
-The tview package is based on https://github.com/gdamore/tcell. It uses types
+The tview package is based on https://github.com/tinywolf3/tcell. It uses types
 and constants from that package (e.g. colors and keyboard values).
 */
 package tview
